@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: white;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Center Content */
+.main-content {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Buttons Section */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: #D9534F;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons a:hover {
+    background-color: #C9302C;
+}
